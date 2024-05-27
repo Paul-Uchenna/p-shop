@@ -7,6 +7,7 @@ import Products from "./pages/Products";
 import Cart from "./pages/Cart";
 import LoginSignup from "./pages/LoginSignup";
 import Footer from "./component/Footer/Footer";
+import NotFound from "./pages/NotFound"; // Create this component for 404 errors
 import men_banner from "./component/assets/banner_mens.png";
 import women_banner from "./component/assets/banner_women.png";
 import kid_banner from "./component/assets/banner_kids.png";
@@ -35,6 +36,8 @@ function App() {
           </Route>
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginSignup />} />
+          {/* Catch-all route for 404 */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
