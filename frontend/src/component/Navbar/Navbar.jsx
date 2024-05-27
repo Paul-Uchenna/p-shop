@@ -48,7 +48,7 @@ function Navbar() {
             setmenu("kids");
           }}
         >
-          <Link to="/kids">Kids</Link>
+          <Link to="/kid">Kid</Link>
           {menu === "kids" ? <hr /> : <></>}
         </li>
       </ul>
