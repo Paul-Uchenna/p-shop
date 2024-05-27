@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+  box-shadow: 0px 1px 3px -2px #000;
+  margin-bottom: 1px;
+  background-color: #fff;
+}
+
+.navlogo {
+  width: 200px;
+}
+
+.navprofile {
+  width: 75px;
+}

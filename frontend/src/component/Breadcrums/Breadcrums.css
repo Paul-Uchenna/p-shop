@@ -1,0 +1,26 @@
+.Breadcrums {
+  padding-top: 70px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: #5e5e5e;
+  font-weight: 600;
+  margin: 55px 60px;
+  text-transform: capitalize;
+}
+
+.arrow {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+/* .Breadcrums img {
+  filter: drop-shadow(0 0 0.75rem #000);
+} */
+
+@media (max-width: 768px) {
+  .Breadcrums {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
